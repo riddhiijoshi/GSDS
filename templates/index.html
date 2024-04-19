@@ -15,24 +15,24 @@
     <section class="navbar">
       <div class="logo">
         <img
-          src="../static/img/E_Commerce_logo.png"
+          src="../static/img/features/logo.png"
           alt="logo"
-          width="250"
-          height="60"
+          width="300"
+          height="70"
         />
       </div>
       <ul class="nav-links">
         <li><a class="active" href="/?user_id={{ user_id }}">Home</a></li>
         {% if not user_id %}
-        <li><a href="/signin">Log In</a></li>
-        <li><a href="/signup">register</a></li>
+        <li><a href="/signin">Log In </a></li>
+        <li><a href="/signup">Register </a></li>
         {% else %}
-        <li><a href="/carts?user_id={{ user_id }}">Cart</a></li>
-        <li><a href="/transaction?user_id={{ user_id }}">Transaction</a></li>
+        <li><a href="/carts?user_id={{ user_id }}">Your Cart</a></li>
+        <li><a href="/transaction?user_id={{ user_id }}">Transactions </a></li>
         <li><a href="/profile?user_id={{ user_id }}">Profile</a></li>
         <li><a href="/logout">Logout</a></li>
         <li><a href="/contact?user_id={{ user_id }}">Contact Us</a></li>
-        <li><a href="/aboutus?user_id={{ user_id }}">About Us</a></li>
+        <li><a href="/aboutus?user_id={{ user_id }}">About</a></li>
         {% endif %}
       </ul>
 
@@ -52,9 +52,9 @@
 
     <section id="hero">
       <h4>Trade-in-offer</h4>
-      <h2>Super Value Deals</h2>
+      <h2>Great Deals</h2>
       <h1>On All Products</h1>
-      <p>Save More with coupns & up to 70% off!</p>
+      <p>Buy now !!</p>
       <a href="#product_details" class="btn">Shop Now</a>
     </section>
 
@@ -63,38 +63,38 @@
     <section id="feature" class="section-p1">
       <div class="fe-box">
         <img src="../static/img/features/f1.png" alt="" />
-        <h6>Free Shipping</h6>
+        <h6>New Gadgets</h6>
       </div>
 
       <div class="fe-box">
-        <img src="../static/img/features/f2.png" alt="" />
-        <h6>Online Order</h6>
+        <img src="../static/img/features/Rf2.jpg" alt="" />
+        <h6>Quick Delivery</h6>
       </div>
 
       <div class="fe-box">
-        <img src="../static/img/features/f3.png" alt="" />
-        <h6>Save Money</h6>
+        <img src="../static/img/features/Rf3.jpg" alt="" />
+        <h6>Easy return</h6>
       </div>
 
       <div class="fe-box">
-        <img src="../static/img/features/f4.png" alt="" />
-        <h6>Promotions</h6>
+        <img src="../static/img/features/Rf4.jpg" alt="" />
+        <h6>Authentic products</h6>
       </div>
 
       <div class="fe-box">
-        <img src="../static/img/features/f5.png" alt="" />
-        <h6>Happy Sell</h6>
+        <img src="../static/img/features/Rf5.jpg" alt="" />
+        <h6>Offers</h6>
       </div>
 
       <div class="fe-box">
-        <img src="../static/img/features/f6.png" alt="" />
-        <h6>24/7 Hrs Supports</h6>
+        <img src="../static/img/features/Rf6.jpg" alt="" />
+        <h6>Customer care</h6>
       </div>
     </section>
 
     <!-- Product Details Section -->
     <div class="product-container" id="product_details">
-      <h1 class="heading" id="product-list">Product Details</h1>
+      <h1 class="heading" id="product-list">Product Info</h1>
       {% if products %}
       <div class="product">
         {% for product in products %}
@@ -104,7 +104,7 @@
           <p class="product-price">Price: ${{ product.price }}</p>
           <div class="button-container">
             <button class="buy-button" data-product-id="{{ product._id }}">
-              Buy
+              Buy Now
             </button>
             <button class="cart-button" data-product-id="{{ product._id }}">
               Add to Cart
@@ -122,7 +122,7 @@
     <footer class="footer">
       <div class="container">
         <hr class="footer-line" />
-        <p>&copy; 2024 Owner Viraj Kunjir. All rights reserved.</p>
+        <p>&copy; Riddhi Joshi . All rights reserved.</p>
       </div>
     </footer>
   </body>

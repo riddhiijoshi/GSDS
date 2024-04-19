@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login</title>
+  <title>Log In</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 
   <style>
@@ -15,7 +15,7 @@
       padding: 10px 15px;
       margin: auto;
       margin-top: 20px;
-      border: 1px solid #155e75;
+      border: 1px solid #171575;
       text-decoration: none;
       cursor: pointer;
       color: white;
@@ -38,7 +38,7 @@
 
   <section class="navbar">
     <div class="logo">
-      <img src="../static/img/E_Commerce_logo.png" alt="logo" width="250" height="60">
+      <img src="../static/img/features/logo.png" alt="logo" width="300" height="70">
     </div>
 
     <ul class="nav-links">
@@ -46,8 +46,8 @@
       <li><a href="/contact?user_id={{user_id}}">Contact Us</a></li>
       <li><a href="/aboutus?user_id={{user_id}}">About Us</a></li>
       {% if not user_id %}
-      <li><a href="/signin">Sign In</a></li>
-      <li><a href="/signup">Signup</a></li>
+      <li><a href="/signin">Log In</a></li>
+      <li><a href="/signup">Register</a></li>
       {% endif %}
     </ul>
     <form id="search-form">
@@ -79,7 +79,7 @@
   <footer class="footer">
     <div class="container">
       <hr class="footer-line" />
-      <p>&copy; 2024 Owner Viraj Kunjir. All rights reserved.</p>
+      <p>&copy; Riddhi Joshi. All rights reserved.</p>
     </div>
   </footer>
 

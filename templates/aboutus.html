@@ -27,7 +27,7 @@
         margin: auto;
         justify-content: center;
         align-content: center;
-        border: 2px solid #045e7a9f;
+        border: 2px solid #171575;
       }
 
       .about-section {
@@ -67,7 +67,7 @@
         padding: 10px 15px;
         margin: auto;
         margin-top: 20px;
-        border: 1px solid #155e75;
+        border: 1px solid #171575;
         text-decoration: none;
         cursor: pointer;
         color: white;
@@ -94,7 +94,7 @@
     <section class="navbar">
       <div class="logo">
         <img
-          src="../static/img/E_Commerce_logo.png"
+          src="../static/img/features/logo.png"
           alt="logo"
           width="250"
           height="60"
@@ -104,8 +104,8 @@
       <ul class="nav-links">
         <li><a class="active" href="/?user_id={{ user_id }}">Home</a></li>
         {% if not user_id %}
-        <li><a href="/signin">Sign In</a></li>
-        <li><a href="/signup">Signup</a></li>
+        <li><a href="/signin">Log In</a></li>
+        <li><a href="/signup">Register</a></li>
         {% else %}
         <li><a href="/carts?user_id={{ user_id }}">Cart</a></li>
         <li><a href="/transaction?user_id={{ user_id }}">Transaction</a></li>
@@ -133,24 +133,20 @@
     </header>
     <main>
       <section class="about-section">
-        <h2>Meet the Team</h2>
+        <h2>Owner</h2>
         <div class="profile">
           <div class="profile-info">
             <img
-              src="../static/img/Viraj_Kunjir_IT_VIIT.png"
+              src="../static/img/features/Riddhi profilw pic linkedin new.jpg"   
               class="img"
               alt=""
               width="200"
               height="200"
             />
 
-            <h3>Viraj Kunjir</h3>
+            <h3>Riddhi Joshi</h3>
             <p>
-              Highly skilled Full-Stack Intern at Ineuron specializing in MERN
-              stack development. Notable projects include optimizing harvesting
-              for maximum profit through machine learning and developing an
-              online art gallery, showcasing proficiency in a wide range of
-              technologies and frameworks.
+              A talented student at VIIT pune, at IT department interested in Full stack web dev.
             </p>
           </div>
         </div>
@@ -161,7 +157,7 @@
     <footer class="footer">
       <div class="container">
         <hr class="footer-line" />
-        <p>&copy; 2024 Owner Viraj Kunjir. All rights reserved.</p>
+        <p>&copy; Riddhi Joshi . All rights reserved.</p>
       </div>
     </footer>
   </body>
