@@ -140,11 +140,11 @@ body {
 }
 
 #search-results li {
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 7px;
   background-color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contanier-up {
@@ -156,7 +156,7 @@ body {
 
 /* CSS for Hero Section */
 #hero {
-  background-image: url("../img/Hero_Img.png");
+  background-image: url("../img/Hero.jpg");
   height: 88vh;
   width: 100%;
   background-size: cover;
@@ -272,7 +272,7 @@ body {
 .product-container {
   width: 100%;
   padding: 25px 15px;
-  background-color: #083344;
+  background-color: #171575;
 }
 
 .product {
@@ -282,7 +282,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #083344;
+  background-color: #171575;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
@@ -338,7 +338,7 @@ body {
   max-width: 500px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #083344;
+  background-color: #171575;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid #171575;
