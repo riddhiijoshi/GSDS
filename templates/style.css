@@ -197,7 +197,7 @@ hr {
   display: block;
   margin: 0 auto;
   padding: 12px 20px;
-  background-color: #007bff;
+  background-color: #78c7ff;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -207,7 +207,7 @@ hr {
 }
 
 .checkout-button:hover {
-  background-color: #0056b3;
+  background-color: #a7d1ff;
 }
 body {
   font-family: Arial, sans-serif;
