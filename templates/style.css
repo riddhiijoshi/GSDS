@@ -44,9 +44,24 @@ button:hover {
   background-color: #0056b3;
 }
 
+
+
+/* new code added here !!!!!!!!!!! */
+
+/* CSS for product description */
+.product-description {
+  background-color: white; /* Sets the background color to white */
+  color: black; /* Sets the text color to black */
+  padding: 10px; /* Adds padding inside the box */
+  border-radius: 5px; /* Rounds the corners of the box */
+  border: 1px solid #ccc; /* Adds a light gray border */
+}
+
+
+
 /* Product card styles */
 .product-card {
-  border: 1px solid #ccc;
+  border: 1px solid #b9a4a4;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
